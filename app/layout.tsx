@@ -10,8 +10,8 @@ const pressStart = Press_Start_2P({
 });
 
 export const metadata: Metadata = {
-  title: "ARCADE ARENA | $ARCADE",
-  description: "Arcade Arena - wager $ARCADE tokens in classic arcade games. Player vs Player. Winner takes all.",
+  title: "ARCADE ARENA | $ARENA",
+  description: "Arcade Arena - wager $ARENA tokens in classic arcade games. Player vs Player. Winner takes all.",
   icons: {
     icon: "/favicon.ico",
   },

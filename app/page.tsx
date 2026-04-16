@@ -189,7 +189,7 @@ export default function Home() {
             {ASCII_LOGO_2}
           </pre>
           <p className="text-[var(--neon-magenta)] glow-magenta text-[10px] mt-4 tracking-widest">
-            ARCADE ARENA // WAGER $ARCADE // WINNER TAKES ALL
+            ARCADE ARENA // WAGER $ARENA // WINNER TAKES ALL
           </p>
         </header>
 
@@ -270,7 +270,7 @@ export default function Home() {
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 text-[9px]">
             <div>
               <div className="text-[var(--neon-green)] mb-2">01 CONNECT</div>
-              <div className="text-[var(--text-muted)]">Connect your Solana wallet and load up on $ARCADE tokens</div>
+              <div className="text-[var(--text-muted)]">Connect your Solana wallet and load up on $ARENA tokens</div>
             </div>
             <div>
               <div className="text-[var(--neon-magenta)] mb-2">02 WAGER</div>
@@ -295,12 +295,12 @@ export default function Home() {
               FOLLOW ON X
             </a>
             <a
-              href="https://pump.fun/?q=arcade&tab=created_timestamp"
+              href="https://pump.fun/?q=arena&tab=created_timestamp"
               target="_blank"
               rel="noopener noreferrer"
               className="arcade-btn arcade-btn-green text-[8px] !px-4 !py-2"
             >
-              BUY $ARCADE
+              BUY $ARENA
             </a>
             <span className="text-[var(--text-muted)] text-[8px]">arcadearena.fun</span>
           </div>

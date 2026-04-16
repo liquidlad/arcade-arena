@@ -81,7 +81,7 @@ export default function GameWrapper({ title, color, children }: GameWrapperProps
                   PRACTICE
                 </button>
                 <button onClick={handleWager} className="arcade-btn arcade-btn-magenta text-[8px] !px-4 !py-2">
-                  {connected ? "WAGER $ARCADE" : "CONNECT & WAGER"}
+                  {connected ? "WAGER $ARENA" : "CONNECT & WAGER"}
                 </button>
               </>
             ) : (
@@ -103,7 +103,7 @@ export default function GameWrapper({ title, color, children }: GameWrapperProps
             </div>
             {mode === "wager" && (
               <div className={`text-[10px] ${won ? "text-[var(--neon-green)]" : "text-[var(--neon-magenta)]"}`}>
-                {won ? "+$ARCADE earned" : "-$ARCADE lost"}
+                {won ? "+$ARENA earned" : "-$ARENA lost"}
               </div>
             )}
             {mode === "practice" && (
